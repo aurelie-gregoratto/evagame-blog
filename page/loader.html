@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name= "author" content="Aurélie GREGORATTO">
+<meta name="viewport" contente="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Loader</title>
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+	
+<body>
+	<div class="cursor">
+		
+		<header>
+			<div class="header-container">
+			
+			<div class="logo">				
+				<img src="../img/logo blog.png" alt="logo evagame blog">			
+			</div>
+			
+			<nav>
+					
+									
+				<div class="menu-burger">
+					
+				<div class="icon" onclick="display()">
+					<img src="../img/burger.png" alt="menu burger">
+				</div>
+					
+				<div class="menu" id="menu">
+					
+				
+						<a href="../index.html"> Accueil</a>
+						<a href="../page/articles.html">Articles</a>
+						<a href="../page/connexion.html">Connexion/Inscription</a>
+						<a href="../page/contact.html">Contact</a>
+						
+					
+				</div>
+					
+				</div>
+				
+				<script type="text/javascript">
+					var menu = document.getElementById('menu');
+					var show = 0;
+					
+					function display(){
+						if (show==0){
+							menu.style.display = "block";
+							show = 1;
+						}else{
+							menu.style.display = "none";
+							show = 0;
+						}
+						
+					}				
+				</script>
+				
+			</nav>
+			
+			<div class="logo2">
+				<img src="../img/nom blog.png" alt="evagame blog">
+			</div>
+			
+			</div>
+		</header>	
+	
+	
+	
+	
+		<main>
+			<div class="loader"></div>
+		</main>
+		
+	
+	
+	
+		<footer>
+			<div class="footer-container">
+			<div class="block-par-4">
+				
+				<div class="blog">
+					<img src="../img/logo blog.png" alt="logo evagame blog">
+				</div>
+				<p>
+					Evagame Blog est un site partageant la passion pour les jeux vidéos. Chaque articles vous donnent le temps de vous évader pendant quelques minutes.
+				</p>
+			</div>
+			<div class="block-par-4">
+				
+				<h4>Navigation</h4>
+				<nav>
+					<ul>
+						<li><a href="../index.html">Accueil</a></li>
+						<li><a href="../page/articles.html">Articles</a></li>
+						<li><a href="../page/connexion.html">Connexion / Inscription</a></li>
+						<li><a href="../page/contact.html">Contact</a></li>
+						<li><a href="../page/loader.html">Loader</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="block-par-4">
+				
+				<h4>Contactez-nous</h4>
+				<p>
+					2, rue de Claye </br>
+					75005 Paris </br>
+					FRANCE </br>
+					</br>
+					<a href="mailto:contact@gmail.com">evagame-blog@gmail.com</a></br>
+					</br>
+					06.36.58.12.95
+				</p>
+			</div>
+			<div class="block-par-4">
+				
+				<h4>Réseaux sociaux</h4>
+				<div class="socials-img">
+					<a href="https://www.facebook.com/gameblog" target="_blank"><img src="../img/facebook.png" alt="Facebook"></a>	
+					<a href="https://discord.com/invite/mDRpJxM" target="_blank"><img src="../img/discord.png" alt="Instagram"></a>
+					<a href="https://twitter.com/Gameblog" target="_blank"><img src="../img/twitter.png" alt="Twitter"></a>
+				</div>
+			</div>
+
+				<p>Copyright © 2019-2020 Evagame Blog. Tous droits réservés.</p>
+
+			</div>
+		</footer>
+</div>
+</body>
+
+</html>
